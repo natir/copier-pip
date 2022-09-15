@@ -1,0 +1,28 @@
+####################
+# Pipeline variables
+####################
+workdir_path   = config["paths"]["workdir"]
+pipeline_path  = config["paths"]["pipeline"]
+
+rules_path   = f"{pipeline_path}/rules"
+scripts_path = f"{pipeline_path}/scripts"
+
+
+##############
+# Utils import
+##############
+include: f"{rules_path}/utils.snk"
+
+
+##################
+# Variable setting
+##################
+workdir: workdir_path
+
+
+###############
+# Include rules
+###############
+
+rule all:
+    input:
