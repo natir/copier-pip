@@ -67,10 +67,10 @@ cp etc/config.example.yml etc/config.yml
 
 Check file produce by pipeline:
 ```bash
-snakemake -s analysis/Snakefile --configfile analysis/etc/prod.yaml -w 30 -r -p -k -c {number_of_thread} all -n
+snakemake -s analysis/Snakefile --configfile analysis/etcs/prod.yaml -w 30 -r -p -k -c {number_of_thread} all -n
 ```
 
 Run:
 ```bash
-snakemake -s analysis/Snakefile --configfile analysis/etc/prod.yaml -w 30 -r -p -k -c {number_of_thread} all
+snakemake -s analysis/Snakefile --configfile analysis/etcs/prod.yaml -w 30 -r -p -k -c {number_of_thread} all
 ```
