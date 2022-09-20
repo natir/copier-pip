@@ -1,0 +1,6 @@
+variables:
+  max_thread: 8
+
+paths:
+  workdir: # Put here path to work directory
+  pipeline: # Put here path to the pipeline source directory

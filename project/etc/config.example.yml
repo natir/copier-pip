@@ -1,6 +1,0 @@
-variables:
-  max_thread: 8
-
-paths:
-  workdir:
-  pipeline:
